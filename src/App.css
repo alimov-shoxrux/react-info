@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+ul
+{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 100px;
+}
+
+li{
+  flex-direction: column;
+  margin-bottom: 50px;
+  box-shadow: 0 0 20px 5px #eee;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img{
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  button{
+    margin-bottom: 20px;
+  }
+}
+.title{
+  font-size: 15px;
+  width: 200px;
+}
+
+.info{
+  padding-top: 40px;
+}
